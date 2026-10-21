@@ -1,0 +1,34 @@
+goos: windows
+goarch: amd64
+pkg: github.com/Quaximur/gomatrices
+cpu: Intel(R) Core(TM) i7-14700HX
+BenchmarkMultiply/Small_10-28         	  915576	      1295 ns/op	    1040 B/op	      11 allocs/op
+BenchmarkMultiply/Medium_10-28        	  171247	      7072 ns/op	    2337 B/op	      32 allocs/op
+BenchmarkMultiply/Huge_10-28          	   51052	     23330 ns/op	    5892 B/op	      52 allocs/op
+BenchmarkMultiply/Small_50-28         	   10000	    113275 ns/op	   22080 B/op	      51 allocs/op
+BenchmarkMultiply/Medium_50-28        	   21133	     56719 ns/op	   28500 B/op	     152 allocs/op
+BenchmarkMultiply/Huge_50-28          	   14966	     80479 ns/op	   48305 B/op	     132 allocs/op
+BenchmarkMultiply/Small_100-28        	    1236	    964983 ns/op	   92288 B/op	     101 allocs/op
+BenchmarkMultiply/Medium_100-28       	    5268	    227764 ns/op	  105136 B/op	     302 allocs/op
+BenchmarkMultiply/Huge_100-28         	    4197	    353238 ns/op	  189255 B/op	     232 allocs/op
+BenchmarkMultiply/Small_150-28        	     309	   3891963 ns/op	  196096 B/op	     151 allocs/op
+BenchmarkMultiply/Medium_150-28       	    1567	    643542 ns/op	  215381 B/op	     452 allocs/op
+BenchmarkMultiply/Huge_150-28         	    1636	    869204 ns/op	  397239 B/op	     332 allocs/op
+BenchmarkMultiply/Small_190-28        	     144	   8280623 ns/op	  296704 B/op	     191 allocs/op
+BenchmarkMultiply/Medium_190-28       	     985	   1133995 ns/op	  321103 B/op	     572 allocs/op
+BenchmarkMultiply/Huge_190-28         	     918	   1401413 ns/op	  598911 B/op	     412 allocs/op
+BenchmarkMultiply/Small_200-28        	     100	  10255469 ns/op	  363264 B/op	     201 allocs/op
+BenchmarkMultiply/Medium_200-28       	     849	   1231119 ns/op	  388886 B/op	     602 allocs/op
+BenchmarkMultiply/Huge_200-28         	     681	   1712887 ns/op	  732037 B/op	     433 allocs/op
+BenchmarkMultiply/Small_500-28        	       5	 233735040 ns/op	 2060288 B/op	     501 allocs/op
+BenchmarkMultiply/Medium_500-28       	      76	  15572163 ns/op	 2126116 B/op	    1505 allocs/op
+BenchmarkMultiply/Huge_500-28         	     100	  10600766 ns/op	 4129222 B/op	    1033 allocs/op
+BenchmarkMultiply/Small_1000-28       	       1	4099874300 ns/op	 8216576 B/op	    1001 allocs/op
+BenchmarkMultiply/Medium_1000-28      	       4	 468822650 ns/op	 8393072 B/op	    3103 allocs/op
+BenchmarkMultiply/Huge_1000-28        	       6	 189350517 ns/op	16444944 B/op	    2032 allocs/op
+BenchmarkMultiply/Medium_5000-28      	       1	172234532400 ns/op	207490032 B/op	   18798 allocs/op
+BenchmarkMultiply/Huge_5000-28        	       1	12675066200 ns/op	409890320 B/op	   10032 allocs/op
+BenchmarkMultiply/Medium_10000-28     	       1	2943294478500 ns/op	823338544 B/op	   35123 allocs/op
+BenchmarkMultiply/Huge_10000-28       	       1	118967240600 ns/op	1638977040 B/op	   20032 allocs/op
+PASS
+ok  	github.com/Quaximur/gomatrices	3282.052s
