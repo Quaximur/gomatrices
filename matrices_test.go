@@ -88,7 +88,7 @@ func TestMultiplyInvalidShapes(t *testing.T) {
 }
 
 func BenchmarkMultiply(b *testing.B) {
-	sizes := []int{10, 50, 100, 150, 190, 200, 500, 1000, 5000, 10000}
+	sizes := []int{10, 50, 100, 150, 190, 200, 500} // , 1000, 5000, 10000
 	for _, size := range sizes {
 		m1 := generateMatrix(size)
 		m2 := generateMatrix(size)
