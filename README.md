@@ -1,8 +1,6 @@
 # gomatrices
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/Quaximur/gomatrices.svg)](https://pkg.go.dev/github.com/Quaximur/gomatrices)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/Quaximur/gomatrices)](go.mod)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Quaximur/gomatrices)](https://goreportcard.com/report/github.com/Quaximur/gomatrices)
+[![Go Reference](https://img.shields.io/badge/go-1.26-00ADD8?logo=go&logoColor=white)](https://pkg.go.dev/github.com/Quaximur/gomatrices)
 
 Generic matrix multiplication in Go, with three strategies tuned for different sizes.
 
